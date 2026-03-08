@@ -1,9 +1,15 @@
 import streamlit as st
+import numpy as np
+
+
+
+with st.chat_message("user"):
+     st.write("Hello")
 
 st.title("KalpaniBaraniwala_Echo Bot")
 
 with st.chat_message("assistant"):
-st.image(“TheSavedImage.png", caption="CIT 144 – Demographics Data Visualization")
+st.image(“PowerBidashboard.png", caption="CIT 144 – Demographics Data Visualization")
 
 # Initialize chat history
 if "messages" not in st.session_state:
